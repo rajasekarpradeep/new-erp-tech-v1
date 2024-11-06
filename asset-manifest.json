@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/new-erp-tech-v1/static/css/main.06fc246f.css",
+    "main.js": "/new-erp-tech-v1/static/js/main.9f02f65d.js",
+    "static/js/453.f7be5b23.chunk.js": "/new-erp-tech-v1/static/js/453.f7be5b23.chunk.js",
+    "static/media/coding.png": "/new-erp-tech-v1/static/media/coding.e551cf11d1cf8d1a032f.png",
+    "static/media/service2.jpg": "/new-erp-tech-v1/static/media/service2.a8eda4bc7a2cc81225a3.jpg",
+    "static/media/abouts.png": "/new-erp-tech-v1/static/media/abouts.e70b1b4744b447230b9f.png",
+    "static/media/service3.jpg": "/new-erp-tech-v1/static/media/service3.440fb73b91f2b0cd2bad.jpg",
+    "static/media/service7.jpg": "/new-erp-tech-v1/static/media/service7.50ca2fc075bca86fd916.jpg",
+    "static/media/service4.jpg": "/new-erp-tech-v1/static/media/service4.78d6305e9397886bc7bd.jpg",
+    "static/media/service6.jpg": "/new-erp-tech-v1/static/media/service6.27e05946080d2aca1d18.jpg",
+    "static/media/service1.jpg": "/new-erp-tech-v1/static/media/service1.c44be21504ca56801c22.jpg",
+    "static/media/service8.jpg": "/new-erp-tech-v1/static/media/service8.691bd7bc1f1abdf93d94.jpg",
+    "static/media/service5.jpg": "/new-erp-tech-v1/static/media/service5.53f2f77602dd3a58cd8f.jpg",
+    "index.html": "/new-erp-tech-v1/index.html",
+    "main.06fc246f.css.map": "/new-erp-tech-v1/static/css/main.06fc246f.css.map",
+    "main.9f02f65d.js.map": "/new-erp-tech-v1/static/js/main.9f02f65d.js.map",
+    "453.f7be5b23.chunk.js.map": "/new-erp-tech-v1/static/js/453.f7be5b23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fc246f.css",
+    "static/js/main.9f02f65d.js"
+  ]
+}
