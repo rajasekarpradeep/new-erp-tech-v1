@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us Section</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f9;
+      padding: 20px;
+    }
+
+    .about-section {
+      max-width: 1000px;
+      width: 100%;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Section Header */
+    .about-section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Flex container for two columns */
+    .about-content {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    /* Left column (text) */
+    .about-text {
+      flex: 1 1 50%;
+      padding: 20px;
+    }
+
+    .about-text h3 {
+      font-size: 1.5rem;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    .about-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    /* Right column (image) */
+    .about-image {
+      flex: 1 1 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Responsive design adjustments */
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+      }
+      .about-text, .about-image {
+        flex: 1 1 100%;
+        text-align: center;
+      }
+      .about-text p {
+        text-align: justify;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="about-section">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <!-- Left Side: Text Content -->
+      <div class="about-text">
+        <h3>Our Mission</h3>
+        <p>We strive to deliver top-notch services and innovative solutions that empower businesses to achieve excellence. With a dedicated team of experts, we continuously push the boundaries of technology and creativity to help our clients succeed.</p>
+        <p>Our commitment to quality and client satisfaction is unwavering, and we believe in fostering long-lasting relationships built on trust and mutual success. Join us on this journey as we make a difference together!</p>
+      </div>
+      <!-- Right Side: Image -->
+      <div class="about-image">
+        <img src="https://via.placeholder.com/400" alt="About Us Image">
+      </div>
+    </div>
+  </section>
+</body>
+</html>

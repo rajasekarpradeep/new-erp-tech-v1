@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Columns Flexbox</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 1200px;
+      width: 100%;
+      padding: 10px;
+    }
+
+    .box {
+      background-color: #4CAF50;
+      color: white;
+      flex: 1 1 calc(25% - 20px); /* 25% width with gap considered */
+      min-width: 200px; /* Minimum width for smaller screens */
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .box {
+        flex: 1 1 calc(50% - 20px); /* 50% width on smaller screens */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .box {
+        flex: 1 1 100%; /* 100% width on mobile screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+  </div>
+</body>
+</html>
